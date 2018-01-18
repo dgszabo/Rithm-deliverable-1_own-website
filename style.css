@@ -1,0 +1,250 @@
+/*importing fonts*/
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Joti+One');
+@import url('https://fonts.googleapis.com/css?family=Kavivar');
+
+body {
+	font-family: "Poppins", "Ubuntu", "Roboto", Sans-Serif;
+	background-image: url("GoldenGateBridge.jpg");
+}
+
+#main-box {
+	width: 64%;
+	margin: auto;
+	border: solid 1px black;
+	background color: #DCDCDC;
+}
+
+header {
+	height: 200px;
+	width: 100%;
+	font-family: "Joti One", "Kavivanar", "Poppins";
+	font-size: 72px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #C0C0C0
+}
+
+header > p {
+	padding-right: 20px;
+}
+
+nav {
+	height: 50px;
+	width: 100%;
+	font-size: 24px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #A9A9A9;
+}
+
+.nav-button {
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 7px;
+	background-color: #A9A9A9;
+	border: solid .5px #A9A9A9;
+	transition: background-color 1s, border-color 1s, color .7s;
+	text-decoration: none;
+	color: black;
+}
+
+.nav-button:hover {
+	background-color: #2F4F4F;
+	border-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+#home-body {
+	height: auto;
+	width: 100%;
+	background-color: #f8f8f0;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+#img-holder {
+	position: relative;
+	top: 70px;
+}
+
+img {
+	width: 210px;
+	height: 280px;
+	border-radius: 140px;
+}
+
+#img-caption {
+	font-size: 30px;
+	margin-top: 100px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#about-body {
+	height: auto;
+	width: 100%;
+	background-color: #f8f8f0;
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+}
+
+.entry-type-divider {
+	width: 90%;
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: #778899;
+	border-radius: 5px;
+	padding-left: 10px;
+
+}
+
+.job-bar {
+	width: 87.5%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 3px;
+}
+
+#profile-highlights {
+	list-style-image: url('arrow-head.png');
+	font-size: 16px
+}
+
+.title-bar {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 16px;
+
+}
+
+.job-bar > ul {
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+
+#final-bar {
+	width: 90%;
+	height: 20px;
+}
+
+.skill-bar {
+	width: 90%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-top: 15px;
+}
+
+.skill-type {
+	max-width: 135px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 22px;
+	line-height: 95%;
+	background-color: #778899;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.skill-bar > ul {
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+
+#publications {
+	list-style-type: none;
+}
+
+#contact-box {
+	height: 40px;
+	/*width: 200px;*/
+	position: fixed;
+	bottom: 0px;
+	right: 18%;
+	display: flex;
+	align-items: center;
+	background-color: #778899;
+	border: solid .5px black;
+	border-bottom: none;
+	border-top-left-radius: 10px; 
+	border-top-right-radius: 10px;
+	transition: background-color 1s, color .7s;
+}
+
+#contact-box:hover {
+	background-color: #2F4F4F;
+}
+
+#contact-box > a {
+	padding: 10px 10px 10px 10px;
+	margin: 10px;
+	text-decoration: none;
+}
+
+#contact-box > a:hover {
+	color: white;
+}
+
+#download-box {
+	height: 40px;
+	/*width: 200px;*/
+	position: fixed;
+	bottom: 0px;
+	right: 18%;
+	display: flex;
+	align-items: center;
+	background-color: #778899;
+	border: solid .5px black;
+	border-bottom: none;
+	border-top-left-radius: 10px; 
+	border-top-right-radius: 10px;
+	transition: background-color 1s, color .7s;
+}
+
+#download-box:hover {
+	background-color: #2F4F4F;
+}
+
+#download-box > a {
+	padding: 10px 10px 10px 10px;
+	margin: 10px;
+	text-decoration: none;
+}
+
+#download-box > a:hover {
+	color: white;
+}
